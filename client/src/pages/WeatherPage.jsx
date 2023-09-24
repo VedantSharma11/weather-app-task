@@ -29,7 +29,7 @@ function WeatherPage() {
   const [weather, updateWeather] = useState();
   const fetchWeather = async (e) => {
     e.preventDefault();
-    const response = await Axios.get(`http://localhost:3001/api/getweatherinfo?location=${city}`);
+    const response = await Axios.get(`https://weather-app-task-w897.onrender.com/api/getweatherinfo?location=${city}`);
     updateWeather(response.data);
   };
   return (
