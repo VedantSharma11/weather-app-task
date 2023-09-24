@@ -1,7 +1,8 @@
 # Weather App task
 
 A simple Weather Application built with React for the frontend, Node.js with Express for the backend, and OpenWeatherMap API for weather data. Styled with Styled Components.
-
+- [Deployed link](https://6510c6096686c82e7a9ab6ef--lustrous-cucurucho-849ef6.netlify.app/)
+  
 ## Getting Started
 
 These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
